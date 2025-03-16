@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Kontak</title>
+</head>
+<body>
+<h1> Formulir Kelompok 9 </h1>
+<form>
+nama : <input type="text" name="nama"> <br/>
+alamat : <input type="text" name="alamat"> </br/>
+password : <input type="password" name="pass"> <br/>
+Jenis Kelamin :
+<input type="radio" name="jk" value="laki-laki"/> Laki - Laki
+<input type="radio" name="jk" value="perempuan" /> Perempuan
+<br/>
+bahas pemograman yang dikuasai :
+<input type="checkbox" name="web"> Web
+<input type="checkbox" name="mobile"> MOBILE
+<input type="checkbox" name="desk"> DESKTOP
+<br/>
+kota asal :
+<select>
+<option>Semarang</option>
+<option>Bandung</option>
+</select>
+<br/>
+pesan anda :
+<textarea></textarea>
+<br/>
+<input type="submit" value="proses">
+</form>
+Ke 
+<button id="myButton">Kembali Ke Menu</button>
+
+<script>
+    document.getElementById("myButton").addEventListener("click", function() {
+        window.location.href = "Menu_latihan.html";
+    });
+</script>
+</body>
+</html>

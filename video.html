@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menampilkan Video</title>
+	  <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+      </style>
+</head>
+<body>
+    <h2>Video Player Kelompok 9</h2>
+     <video width="1280" height="720" controls>
+        <source src="video/bocchi.mp4" type="video/mp4">
+    </video>
+	Ke 
+    <button id="myButton">Kembali Ke Menu</button>
+
+    <script>
+        document.getElementById("myButton").addEventListener("click", function() {
+            window.location.href = "Menu_latihan.html";
+        });
+    </script>
+</body>
+</html>
